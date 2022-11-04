@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    min-height: 100vh;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+ 
+}
+
+/*.container {
+    max-width: px;
+}*/
+
+header {
+    position: static;
+    width: 100%;
+    padding: 5px;
+    z-index: 9999;
+}
+
+
+main {
+    padding-left: 190px;
+    padding-right: 190px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding-top: 5px;
+    background-color: #c4c4c4;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.headertitle {
+    padding-left: 190px;
+    padding-top: 30px;
+    padding-bottom: 55px;
+    font-size: 178%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding-top: 33px;
+    max-width: 522x;
+    max-height: 597px;
+}
+
+
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 479px 280px;
+    grid-gap: 30px;
+    flex-grow: 1;
+}
+
+.imageingrid {
+    grid-column: 1;
+}
+
+.caption {
+    font-size: 89%;
+}
+
+.item-1 {
+    /*background-color: rgb(214, 112, 112);*/
+    max-width: 100%;
+    grid-column: 4 span 6;
+}
+
+.item-1-1 {
+    grid-row: 2;
+}
+
+.item-2 {
+    /*background-color: rgb(227, 193, 107);*/
+    grid-column: 4 span 6;
+}
+
+.item-3 {
+    /*background-color: rgb(74, 181, 158);*/
+    grid-column: 4 span 6;
+}
+
+.item-4 {
+    /*background-color: rgb(255, 161, 127);*/
+    grid-column: 4 span 6;
+}
+
+.item-5 {
+    background-color: #676767;
+    color: white;
+    grid-column: 4 span 6;
+    padding: 9px;
+    max-width: 230px;
+    max-block-size: 100%;
+}
+
+.greenlink {
+    color: #0FB78F;
+}
+
+
+.footertitle {
+    text-align: center;
+    font-size: 150%;
+}
+
+.footergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 55px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 10px;
+    grid-gap: 20px;
+}
+
+.charlesbabbage {
+    max-width: 300px;
+    max-height: 178px;
+    max-block-size: 100%;
+    grid-column: 1;
+}
+
+.nametag {
+    text-align: center;
+    padding-top: 72px;
+}
+
+.nametag-2 {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.nametag-3 {
+    text-align: center;
+}
+
+.porgchip {
+    max-width: 300px;
+    max-height: 100px;
+    max-block-size: 100%;
+    grid-column: 2;
+}
+
+.difference-engine {
+    max-width: 300px;
+    max-height: 100px;
+    max-block-size: 100%;
+    grid-column: 3;
+}
+
+.namealigner {
+    grid-row: 2;
+}
+
+.picalign {
+    grid-row: 1;
+}
+
+.sourcelook {
+    padding-top: 50px;
+    padding-left: 190px;
+    padding-bottom: 20px;
+}
